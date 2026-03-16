@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-bg: #FEE109;
+        --color-txt: #4F4E4E;
+      }
+      @layer base {
+        .container {@apply max-w-4xl mx-auto}
+        .parent {@apply p-[40px] bg-bg flex-wrap}
+        .child {@apply bg-white p-[40px] rounded-4xl flex-wrap}
+        .h1 {@apply font-sans text-[74px] font-bold text-center leading-none}
+        .h2 {@apply font-sans text-[40px] font-bold text-center leading-none}
+        .h3 {@apply font-sans text-[30px] font-medium text-center leading-none pb-[25px]}
+        .h4 {@apply font-sans text-[25px] font-medium text-center leading-none py-[25px] underline}
+        .paragraph {@apply font-sans text-[20px] font-normal leading-[120%] text-txt}
+        .btn {@apply border-[5px] border-bg border-solid rounded-2xl p-[3%] mt-[10%] cursor-pointer hover:bg-txt}
+        .language {@apply hover:opacity-50}
+
+        #home {@apply border-[1px] border-black border-solid rounded-4xl p-[40px] justify-self-center}
+        #office {@apply border-[1px] border-black border-solid rounded-4xl p-[40px] justify-self-center}
+        #remodel {@apply border-[1px] border-black border-solid rounded-4xl p-[40px] justify-self-center}
+        #general {@apply border-[1px] border-black border-solid rounded-4xl p-[40px] justify-self-center}
+        #furniture {@apply border-[1px] border-black border-solid rounded-4xl p-[40px] justify-self-center}
+        #academy {@apply border-[1px] border-black border-solid rounded-4xl p-[40px] justify-self-center}
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <head>
+<section class="container">
+  <div class="parent">
+  <div class="child">
+    <div class="grid grid-cols-2 items-center" >
+      <div><img src="img/group-1.png" alt=""></div>
+  <div class="flex-wrap w-full px-[50px] place-content-around">
+    <nav class="block place-content-left mb-[50px]"> <ul class="list-none overflow-hidden">
+      <li class="float-left px-[10px]"><a href="#service" class="cursor-pointer hover:underline">Послуги</a></li>
+<li class="float-left px-[10px]"><a href="#" class="cursor-pointer hover:underline">Навчання</a></li>
+<li class="float-left px-[10px]"><a href="#" class="cursor-pointer hover:underline">Галерея</a></li>
+<li class="float-left px-[10px]"><a href="#contacts" class="cursor-pointer hover:underline">Контакти</a></li>
+<li class="float-right px-[10px]"><button class="language"><img src="img/ukrainian-flag.png" alt=""></button></li>
+<li class="float-right px-[10px]"><button class="language"><img src="img/turkish-flag.png" alt=""></button></li>
+    </ul>
+    </nav>
+
+       <h1 class="h1 mb-[75px]">Академія чистоти</h1>
+  <h2 class="h2 ">Порядок навколо - порядок в думках</h2></div>
+</div>
+</div>
+</div>
+</section>
+</head>
+<main>
+<section class="container">
+  <h2 class="h2 mt-[50px] mb-[25px]">Про нас</h2>
+  <div class="grid grid-cols-2 items-center">
+    <div> <h3 class="h3">Мистецтво бездоганного клінінгу</h3>
+    <p class="paragraph px-[50px] pb-[25px] text-justify">«Академія чистоти” працює з 2015 року і пропонує сервіс найвищого рівня для тих, хто цінує досконалість у кожній деталі. Ми спеціалізуємося на комплексному догляді за житловими та комерційними об'єктами, поєднуючи багаторічний досвід з інноваційними технологіями очищення. Кожен наш візит — це гарантія свіжості, гігієни та дбайливого ставлення до поверхонь будь-якої складності.</p>
+    <h3 class="h3">Чому саме "Академія чистоти?</h3>
+    <ul class="list-disc list-inside paragraph text-left px-[50px]">
+      <li><b>Досвід:</b> Наші навчевчені фахівці знають, як видалити найскладніші плями.</li>
+      <li><b>Екологичність: </b>Використовуємо лише безпечні хімічні засоби світових брендів.</li>
+      <li><b>Гнучкість: </b>Працюємо у зручний для вас час, без вихідних та свят.</li>
+      <li><b>Контроль: </b>Ретельно перевіряємо якість після кожного прибирання.</li>
+      <li><b>Cучасне обладнання: </b>Проводимо глибоке очещення да дезинфекцію з допомогою потужних парогенераторів, екстракторів та машин для чищення меблів.</li>
+      <li><b>Екологічна хімія: </b>Дбаємо про ваше здоров'я та здоров'я ваших домашніх улюбленів завдяки використанню сучасних екологічних засобів для чищення</li>
+    </ul>
+  </div>
+  <div class="parent"> <div class="child">
+    <img src="img/image-15.png" alt="">
+  </div>
+  </div>
+  </div>
+</section>
+  <section class="container mt-[50px]"><h2 id="service" class="h2 pb-[25px]">Наші послуги</h2>
+    <div class="parent">
+      <div class="grid grid-cols-3 grid-rows-2 gap-[50px]">
+        <div class="child justify-items-center items-center"><img src="img/image-14.png" alt="">
+        <div popover id="home">
+              <h3 class="h3">Прибирання житла</h3>
+              <hr />
+              <p class="paragraph text-center">
+                Ідеальна процедура для підтримання свіжості та чистоти
+          щотижня.
+              </p>
+              <h4 class="h4"> Обсяг:
+              </h4>
+              <ul class="list-disc list-inside paragraph text-left px-[10px]">
+                <li> Сухе та вологе прибирання підлог та поверхонь</li>
+                <li> Заміна постільної білизни.</li>
+                <li> Прасування білизни (за додаткову плату).</li>
+              </ul>
+              <div class="flex place-content-around"><button popovertarget="home" popovertargetaction="hide" class="btn">
+                Закрити
+              </button></div>
+            </div>
+          <div class="flex w-full place-content-around"><button popovertarget="home" class="btn">Прибирання житла</button></div>
+        </div>
+         <div class="child justify-items-center items-center"><img src="img/image-10.png" alt="">
+        <div popover id="office">
+              <h3 class="h3">Прибирання офісів</h3>
+              <hr />
+              <p class="paragraph text-center">
+                Ідеальна процедура для підтримання свіжості та чистоти
+          щотижня.
+              </p>
+              <h4 class="h4"> Обсяг:
+              </h4>
+              <ul class="list-disc list-inside paragraph text-left px-[10px]">
+                <li> Сухе та вологе прибирання підлог та поверхонь</li>
+                <li> Заміна постільної білизни.</li>
+                <li> Прасування білизни (за додаткову плату).</li>
+              </ul>
+              <div class="flex w-full place-content-around"><button popovertarget="office" popovertargetaction="hide" class="btn">
+                Закрити
+              </button></div>
+            </div>
+          <div class="flex w-full place-content-around"><button popovertarget="office" class="btn">Прибирання офісів</button>
+        </div></div>
+<div class="child justify-items-center items-center"><img src="img/image-12.png" alt="">
+        <div popover id="remodel">
+              <h3 class="h3">Післяремонтний клінінг</h3>
+              <hr />
+              <p class="paragraph text-center">
+                Ідеальна процедура для підтримання свіжості та чистоти
+          щотижня.
+              </p>
+              <h4 class="h4"> Обсяг:
+              </h4>
+              <ul class="list-disc list-inside paragraph text-left px-[10px]">
+                <li> Сухе та вологе прибирання підлог та поверхонь</li>
+                <li> Заміна постільної білизни.</li>
+                <li> Прасування білизни (за додаткову плату).</li>
+              </ul>
+              <div class="flex w-full place-content-around"><button popovertarget="remodel" popovertargetaction="hide" class="btn">
+                Закрити
+              </button></div>
+            </div>
+         <div class="flex w-full place-content-around"> <button popovertarget="remodel" class="btn">Післяремонтний клінінг</button></div>
+        </div>
+        <div class="child justify-items-center items-center"><img src="img/image-7.png" alt="">
+        <div popover id="general">
+              <h3 class="h3">Генеральне прибирання</h3>
+              <hr />
+              <p class="paragraph text-center">
+                Ідеальна процедура для підтримання свіжості та чистоти
+          щотижня.
+              </p>
+              <h4 class="h4"> Обсяг:
+              </h4>
+              <ul class="list-disc list-inside paragraph text-left px-[10px]">
+                <li> Сухе та вологе прибирання підлог та поверхонь</li>
+                <li> Заміна постільної білизни.</li>
+                <li> Прасування білизни (за додаткову плату).</li>
+              </ul>
+              <div class="flex w-full place-content-around"><button popovertarget="general" popovertargetaction="hide" class="btn">
+                Закрити
+              </button></div>
+            </div>
+          <div class="flex w-full place-content-around"><button popovertarget="general" class="btn">Генеральне прибирання</button></div>
+        </div>
+        <div class="child justify-items-center items-center"><img src="img/image-8.png" alt="">
+        <div popover id="furniture">
+              <h3 class="h3">Чищення меблів та штор</h3>
+              <hr />
+              <p class="paragraph text-center">
+                Ідеальна процедура для підтримання свіжості та чистоти
+          щотижня.
+              </p>
+              <h4 class="h4"> Обсяг:
+              </h4>
+              <ul class="list-disc list-inside paragraph text-left px-[10px]">
+                <li> Сухе та вологе прибирання підлог та поверхонь</li>
+                <li> Заміна постільної білизни.</li>
+                <li> Прасування білизни (за додаткову плату).</li>
+              </ul>
+              <div class="flex w-full place-content-around">
+              <button popovertarget="academy" class="btn">
+                Дізнатися більше
+              </button> <button popovertarget="furniture" popovertargetaction="hide" class="btn">
+                Закрити
+              </button></div>
+            </div>
+          <div class="flex w-full place-content-around"><button popovertarget="furniture" class="btn">Чищення меблів та штор</button></div>
+        </div>
+        <div class="child justify-items-center items-center"><img src="img/image-11.png" alt="">
+        <div popover id="academy">
+              <h3 class="h3">Навчання клінінгу</h3>
+              <hr />
+              <p class="paragraph text-center">
+                Ідеальна процедура для підтримання свіжості та чистоти
+          щотижня.
+              </p>
+              <h4 class="h4"> Обсяг:
+              </h4>
+              <ul class="list-disc list-inside paragraph text-left px-[10px]">
+                <li> Сухе та вологе прибирання підлог та поверхонь</li>
+                <li> Заміна постільної білизни.</li>
+                <li> Прасування білизни (за додаткову плату).</li>
+              </ul>
+              <div class="flex w-full place-content-around">
+              <button popovertarget="academy" class="btn">
+                Перейти до навчання
+              </button>
+                <button popovertarget="academy" popovertargetaction="hide" class="btn">
+                Закрити
+              </button></div>
+              </div>
+
+          <div class="flex w-full place-content-around"><button popovertarget="academy" class="btn"> Навчання клінінгу</button>
+
+      </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+<footer>
+  <section class="container parent mt-[50px]">
+    <div class="child grid grid-cols-3 gap-[50px]">
+    <div>
+        <h3 class="h3 p-0" id="contacts">Напишіть нам</h3><h4 class="h4 py-[10px] invisible">+00 000 00 00</h4>
+        <div class="justify-self-center"><a href="#" class="cursor-pointer"><img src="img/icon-wa.png" alt=""></a></div>
+      </div>
+
+        <div>
+        <h3 class="h3 p-0">Подзводніть нам</h3><h4 class="h4 py-[10px]">+00 000 00 00</h4>
+        <div class="justify-self-center"><a href="#" class="cursor-pointer"><img src="img/icon-phone.png" alt=""></a></div></div>
+
+      <div>
+        <h3 class="h3">Слідкуйте за нами в соцмережах</h3>
+        <div class="flex place-content-around"><a href="#" class="cursor-pointer"><img src="img/icon-insta.png" alt=""></a><a href="#" class="cursor-pointer"><img src="img/icon-fb.png" alt=""></a></div></div>
+
+</div>
+  </section>
+</footer>
+
+    </style>
+  </body>
+</html>
