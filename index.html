@@ -11,14 +11,14 @@
         --color-txt: #4F4E4E;
       }
       @layer base {
-        .container {@apply max-w-4xl mx-auto}
-        .parent {@apply p-[40px] bg-bg flex-wrap}
-        .child {@apply bg-white p-[40px] rounded-4xl flex-wrap}
-        .h1 {@apply font-sans text-[74px] font-bold text-center leading-none}
-        .h2 {@apply font-sans text-[40px] font-bold text-center leading-none}
+        .container {@apply max-w-3xl mx-auto}
+        .parent {@apply p-[40px] lg:p-[30px] md:p-[20px] sm:p-[15px] bg-bg flex-wrap}
+        .child {@apply bg-white p-[40px] lg:p-[30px] md:p-[20px] sm:p-[15px] rounded-4xl flex-wrap}
+        .h1 {@apply font-sans text-[74px] lg:text-[60px] md:text-[50px] sm:text-[40px] font-bold text-center leading-none}
+        .h2 {@apply font-sans text-[40px] lg:text-[30px] md:text-[25px] sm:text-[20px] font-bold text-center leading-none}
         .h3 {@apply font-sans text-[30px] font-medium text-center leading-none pb-[25px]}
         .h4 {@apply font-sans text-[25px] font-medium text-center leading-none py-[25px] underline}
-        .paragraph {@apply font-sans text-[20px] font-normal leading-[120%] text-txt}
+        .paragraph {@apply font-sans text-[20px] md:text-[15px] sm:text-[10px] font-normal leading-[120%] text-txt}
         .btn {@apply border-[5px] border-bg border-solid rounded-2xl p-[3%] mt-[10%] cursor-pointer hover:bg-txt}
         .language {@apply hover:opacity-50}
 
@@ -49,7 +49,7 @@
     <div class="grid grid-cols-2 items-center" >
       <div><img src="img/group-1.png" alt=""></div>
   <div class="flex-wrap w-full px-[50px] place-content-around">
-    <nav class="block place-content-left mb-[50px]"> <ul class="list-none overflow-hidden">
+    <nav class="block place-content-left mb-[50px] lg:mb-[40px] md:mb-[30px] sm:mb-[20px]"> <ul class="list-none overflow-hidden">
       <li class="float-left px-[10px]"><a href="#service" class="cursor-pointer hover:underline">Послуги</a></li>
 <li class="float-left px-[10px]"><a href="#" class="cursor-pointer hover:underline">Навчання</a></li>
 <li class="float-left px-[10px]"><a href="#" class="cursor-pointer hover:underline">Галерея</a></li>
@@ -59,7 +59,7 @@
     </ul>
     </nav>
 
-       <h1 class="h1 mb-[75px]">Академія чистоти</h1>
+       <h1 class="h1 mb-[75px] lg:mb-[60px] md:mb-[50px] sm:mb-[40px]">Академія чистоти</h1>
   <h2 class="h2 ">Порядок навколо - порядок в думках</h2></div>
 </div>
 </div>
